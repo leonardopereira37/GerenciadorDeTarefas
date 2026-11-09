@@ -1,0 +1,11 @@
+# .NET
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+.vs/
+
+# Node
+node_modules/
+dist/

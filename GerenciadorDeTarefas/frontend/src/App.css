@@ -1,0 +1,92 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f5f7;
+  color: #1f2933;
+  margin: 0;
+}
+
+.pagina {
+  max-width: 560px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.linha {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+.linha input {
+  flex: 1;
+}
+
+input[type='text'],
+input:not([type]) {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #b8c0cc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #2f5d8a;
+  background: #2f5d8a;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #e0a100;
+  outline-offset: 2px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fff;
+  border: 1px solid #dde1e7;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.4rem;
+  border-radius: 4px;
+}
+
+.lista label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #7b8794;
+}
+
+.acoes {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.paginacao {
+  justify-content: center;
+}
+
+.erro {
+  color: #b42318;
+}
